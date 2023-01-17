@@ -15,6 +15,8 @@ header{
     border-bottom: 1px solid #C6C6C6;
 }
 
+
+
 #logo{
     width: 127px;
 }
@@ -23,4 +25,12 @@ header{
     width: 34px;
     height: 34px;
     border-radius: 50%;
+}
+
+.user-post-info{
+   padding: 0.5rem 1rem;
+}
+
+.picture{
+    width: 100%;
 }
