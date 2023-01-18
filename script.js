@@ -1,3 +1,5 @@
+let webPosts =""
+
 const posts = [
     {
         name: "Vincent van Gogh",
@@ -27,3 +29,17 @@ const posts = [
         likes: 152
     }
 ]
+
+function renderPosts(){
+    for(let i=0;i<posts.length;i++){
+        console.log(posts[i])
+    }
+}
+
+
+renderPosts()
+
+
+
+
+
