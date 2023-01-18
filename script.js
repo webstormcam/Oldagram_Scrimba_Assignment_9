@@ -37,6 +37,9 @@ function renderPosts(){
 }
 
 
+use javascript and template literals to solve this problem
+
+
 renderPosts()
 
 
