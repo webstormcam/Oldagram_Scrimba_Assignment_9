@@ -29,8 +29,60 @@ header{
 
 .user-post-info{
    padding: 0.5rem 1rem;
+   display: flex;
+   align-items: center;
+}
+
+.user-profile-img{
+    margin-right: 0.5rem;
 }
 
 .picture{
     width: 100%;
+}
+
+h2{
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.location{
+    font-size: 12px;
+    margin-top: 0.2rem;
+}
+
+.social-icons{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    
+}
+
+.social-icon{
+    width: 25px;
+    transition: transform .7s ease-in-out;
+}
+
+.social-icon:hover{
+    transform: rotate(360deg);
+}
+
+.user-interaction{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+}
+
+.likes{
+    margin:0.5rem 0rem;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.comment{
+    font-size: 13px;
+}
+
+.user{
+    font-weight: 900;
 }
