@@ -42,12 +42,12 @@ function renderPosts(){
                 <img class="user-profile-pic-style" src=${posts[i].avatar} alt="Picture of artist's face">
             </div>
             <div class="user-title">
-                <h2> ${posts[i].name} </h2>
+                <h2> ${posts[i].name}</h2>
                 <p class="location">${posts[i].location}</p>
             </div>
         </div>
         <div class="picture-holder">
-            <img class="picture" src=${posts[i].post} alt="Artist's self portrait">
+            <img   class="picture" src=${posts[i].post} alt="Artist's self portrait">
         </div>
         <div class="user-interaction">
         <div class="social-icons">
@@ -66,10 +66,9 @@ function renderPosts(){
 
     }
     instaPosts.innerHTML=webPosts
+
+    
 }
-
-
-
 
 renderPosts()
 
