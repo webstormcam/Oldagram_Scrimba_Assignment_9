@@ -39,7 +39,7 @@ function renderPosts(){
        let script =`<section>
         <div class="user-post-info">
             <div class="user-profile-img">
-                <img class="user-profile-pic-style" src="images/avatar-vangogh.jpg" alt="Picture of artist's face">
+                <img class="user-profile-pic-style" src="" alt="Picture of artist's face">
             </div>
             <div class="user-title">
                 <h2> Vincent Van Gogh </h2>
