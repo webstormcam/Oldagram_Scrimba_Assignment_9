@@ -1,3 +1,7 @@
+
+let instaPosts= document.getElementById('insta-posts')
+
+
 let webPosts =""
 
 const posts = [
@@ -32,12 +36,40 @@ const posts = [
 
 function renderPosts(){
     for(let i=0;i<posts.length;i++){
-        console.log(posts[i])
+       let script =`<section>
+        <div class="user-post-info">
+            <div class="user-profile-img">
+                <img class="user-profile-pic-style" src="images/avatar-vangogh.jpg" alt="Picture of artist's face">
+            </div>
+            <div class="user-title">
+                <h2> Vincent Van Gogh </h2>
+                <p class="location">Zudert,Netherlands</p>
+            </div>
+        </div>
+        <div class="picture-holder">
+            <img class="picture" src="images/post-vangogh.jpg" alt="Vangogh's self portrait">
+        </div>
+        <div class="user-interaction">
+        <div class="social-icons">
+            <img class="social-icon" src="images/icon-heart.png" alt="Heart Icon">
+            <img class="social-icon" src="images/icon-comment.png" alt="Comment Icon">
+            <img class="social-icon" src="images/icon-dm.png" alt="DM Icon">
+        </div>
+        <p class="likes">21,142 likes</p>
+        <p class="comment">
+            <span class="user">vincey1853</span>
+            just took a few mushrooms lol
+        </p>
+    </div>
+    </section> `
+    webPosts+=script
+
     }
+    instaPosts.innerHTML=webPosts
 }
 
 
-use javascript and template literals to solve this problem
+
 
 
 renderPosts()
