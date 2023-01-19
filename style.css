@@ -86,3 +86,7 @@ h2{
 .user{
     font-weight: 900;
 }
+
+.post-space{
+    margin-top: 0.5rem;
+}

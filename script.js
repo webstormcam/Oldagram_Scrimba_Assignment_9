@@ -36,7 +36,7 @@ const posts = [
 
 function renderPosts(){
     for(let i=0;i<posts.length;i++){
-       let script =`<section>
+       let script =`<section class="post-space">
         <div class="user-post-info">
             <div class="user-profile-img">
                 <img class="user-profile-pic-style" src=${posts[i].avatar} alt="Picture of artist's face">
@@ -69,7 +69,6 @@ function renderPosts(){
 }
 
 
-console.log(posts[0].avatar)
 
 
 renderPosts()
