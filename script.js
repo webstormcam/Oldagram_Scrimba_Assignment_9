@@ -39,15 +39,15 @@ function renderPosts(){
        let script =`<section>
         <div class="user-post-info">
             <div class="user-profile-img">
-                <img class="user-profile-pic-style" src="" alt="Picture of artist's face">
+                <img class="user-profile-pic-style" src=${posts[i].avatar} alt="Picture of artist's face">
             </div>
             <div class="user-title">
-                <h2> Vincent Van Gogh </h2>
-                <p class="location">Zudert,Netherlands</p>
+                <h2> ${posts[i].name} </h2>
+                <p class="location">${posts[i].location}</p>
             </div>
         </div>
         <div class="picture-holder">
-            <img class="picture" src="images/post-vangogh.jpg" alt="Vangogh's self portrait">
+            <img class="picture" src=${posts[i].post} alt="Artist's self portrait">
         </div>
         <div class="user-interaction">
         <div class="social-icons">
@@ -55,10 +55,10 @@ function renderPosts(){
             <img class="social-icon" src="images/icon-comment.png" alt="Comment Icon">
             <img class="social-icon" src="images/icon-dm.png" alt="DM Icon">
         </div>
-        <p class="likes">21,142 likes</p>
+        <p class="likes">${posts[i].likes} likes</p>
         <p class="comment">
-            <span class="user">vincey1853</span>
-            just took a few mushrooms lol
+            <span class="user">${posts[i].username}</span>
+            ${posts[i].comment}
         </p>
     </div>
     </section> `
@@ -69,7 +69,7 @@ function renderPosts(){
 }
 
 
-
+console.log(posts[0].avatar)
 
 
 renderPosts()
