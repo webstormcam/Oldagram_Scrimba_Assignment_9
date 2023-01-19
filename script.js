@@ -51,9 +51,9 @@ function renderPosts(){
         </div>
         <div class="user-interaction">
         <div class="social-icons">
-            <img class="social-icon" src="images/icon-heart.png" alt="Heart Icon">
-            <img class="social-icon" src="images/icon-comment.png" alt="Comment Icon">
-            <img class="social-icon" src="images/icon-dm.png" alt="DM Icon">
+            <img class="social-icon" src="Images/icon-heart.png" alt="Heart Icon">
+            <img class="social-icon" src="Images/icon-comment.png" alt="Comment Icon">
+            <img class="social-icon" src="Images/icon-dm.png" alt="DM Icon">
         </div>
         <p class="likes">${posts[i].likes} likes</p>
         <p class="comment">
